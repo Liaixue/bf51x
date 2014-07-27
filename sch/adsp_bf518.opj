@@ -33,6 +33,8 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" ".\adsp_bf518.dsn")
+      (Path "Design Resources" ".\adsp_bf518.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
          "D:\Work_Project\cadence_sch_lib\prj_blackfin_bf518.OLB"))
@@ -43,13 +45,14 @@
         (Placement "44 2 3 -1 -1 -8 -30 0 200 0 437"))
       (Tab 0))
     (Doc
-      (Type "COrSchematicDoc")
+      (Type "COrPartDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 1771 125 604")
-        (Scroll "-328 0")
-        (Zoom "57")
-        (Occurrence "/"))
-      (Path "D:\WORK_PROJECT\BLACKFIN\HARDWARE\ADSP_BF518.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "01_POWER")))
+        (Placement "44 0 1 -1 -1 -8 -30 150 779 150 607")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "0 13")
+        (Zoom "74"))
+      (Path "D:\WORK_PROJECT\CADENCE_SCH_LIB\PRJ_BLACKFIN_BF518.OLB")
+      (Package "MT48LC32M16A2P-75 IT")))
   (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_16.5\tools\capture\library"))
