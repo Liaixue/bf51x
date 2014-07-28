@@ -11,7 +11,7 @@
         (Type "Schematic Library"))
       (File "C:\Cadence\SPB_16.5\tools\capture\LIBRARY\PSPICE\special.olb"
         (Type "Schematic Library"))
-      (File "D:\Work_Project\cadence_sch_lib\prj_blackfin_bf518.OLB"
+      (File "..\cadence_sch_lib\prj_blackfin_bf518.olb"
         (Type "Schematic Library")))
     (NoModify)
     (File ".\adsp_bf518.dsn"
@@ -29,15 +29,20 @@
     (Folder "Include Files"
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
-  (PartMRUSelector)
+  (PartMRUSelector
+    (ADP5034_AREZ
+      (FullPartName "ADP5034_AREZ.Normal")
+      (LibraryName "D:\GITHUB\BF51X\CADENCE_SCH_LIB\PRJ_BLACKFIN_BF518.OLB")
+      (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\adsp_bf518.dsn")
-      (Path "Design Resources" ".\adsp_bf518.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\adsp_bf518.dsn" "bf51x")
+      (Path "Design Resources" ".\adsp_bf518.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
-         "D:\Work_Project\cadence_sch_lib\prj_blackfin_bf518.OLB"))
+         "..\cadence_sch_lib\prj_blackfin_bf518.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -45,14 +50,24 @@
         (Placement "44 2 3 -1 -1 -8 -30 0 200 0 437"))
       (Tab 0))
     (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 1711 100 579")
+        (Scroll "0 487")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\GITHUB\BF51X\SCH\ADSP_BF518.DSN")
+      (Schematic "bf51x")
+      (Page "01_POWER"))
+    (Doc
       (Type "COrPartDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 150 779 150 607")
+        (Placement "44 0 1 -1 -1 -8 -30 75 704 75 532")
         (PackageScroll "0 0")
         (PackageZoom "1")
         (PartPackage "Part")
-        (Scroll "0 13")
-        (Zoom "74"))
-      (Path "D:\WORK_PROJECT\CADENCE_SCH_LIB\PRJ_BLACKFIN_BF518.OLB")
-      (Package "MT48LC32M16A2P-75 IT")))
+        (Scroll "56 38")
+        (Zoom "121"))
+      (Path "D:\GITHUB\BF51X\CADENCE_SCH_LIB\PRJ_BLACKFIN_BF518.OLB")
+      (Package "WYM320240A")))
   (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_16.5\tools\capture\library"))
