@@ -30,14 +30,48 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
-    (OFFPAGELEFT-L
+    (CON14A
+      (FullPartName "CON14A.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
       (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     (RESISTOR
       (FullPartName "RESISTOR.Normal")
       (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (OFFPAGELEFT-R
+    (GND
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (EVQ-WKA001
+      (FullPartName "EVQ-WKA001.Normal")
+      (LibraryName "D:\GITHUB\BF51X\CADENCE_SCH_LIB\PRJ_BLACKFIN_BF518.OLB")
+      (DeviceIndex "0"))
+    ("SW DPST"
+      (FullPartName "SW DPST.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("SWITCH NETWORK"
+      (FullPartName "SWITCH NETWORK.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (HGS128645
+      (FullPartName "HGS128645.Normal")
+      (LibraryName "D:\GITHUB\BF51X\CADENCE_SCH_LIB\PRJ_BLACKFIN_BF518.OLB")
+      (DeviceIndex "0"))
+    ("CONNECTOR DB9"
+      (FullPartName "CONNECTOR DB9.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (GND_EARTH
       (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     ("4 HEADER"
@@ -47,9 +81,6 @@
     (SSM2305
       (FullPartName "SSM2305.Normal")
       (LibraryName "D:\GITHUB\BF51X\CADENCE_SCH_LIB\PRJ_BLACKFIN_BF518.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (INDUCTOR
       (FullPartName "INDUCTOR.Normal")
@@ -90,41 +121,19 @@
     (CRYSTAL1-4/SM
       (FullPartName "CRYSTAL1-4/SM.Normal")
       (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (CRYSTAL14
-      (FullPartName "CRYSTAL14.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (BAT54C/SOT
-      (FullPartName "BAT54C/SOT.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (BATTERY
-      (FullPartName "BATTERY.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (ADSP_BF516_LQFP_176
-      (FullPartName "ADSP_BF516_LQFP_176C.Normal")
-      (LibraryName "D:\GITHUB\BF51X\CADENCE_SCH_LIB\PRJ_BLACKFIN_BF518.OLB")
-      (DeviceIndex "2"))
-    (VCC
-      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (GND_SIGNAL
-      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (VCC_BAR
-      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (0
-      (LibraryName
-         "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" "D:\github\bf51x\sch\adsp_bf518.dsn")
+      (Path "Design Resources" "D:\github\bf51x\sch\adsp_bf518.dsn" "bf51x")
+      (Path "Design Resources" "D:\github\bf51x\sch\adsp_bf518.dsn"
+         "Design Cache")
       (Path "Design Resources" "Library")
-      (Select "Design Resources"))
+      (Path "Design Resources" "Library"
+         "D:\github\bf51x\cadence_sch_lib\prj_blackfin_bf518.olb")
+      (Select "Design Resources" "D:\github\bf51x\sch\adsp_bf518.dsn"
+         "Design Cache" "EVQ-WKA001"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -135,7 +144,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 100 1711 100 579")
-        (Scroll "71 257")
+        (Scroll "312 407")
         (Zoom "114")
         (Occurrence "/"))
       (Path "D:\GITHUB\BF51X\SCH\ADSP_BF518.DSN")
@@ -154,9 +163,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 175 1492 175 654")
-        (Scroll "615 1798")
-        (Zoom "244")
+        (Placement "44 0 1 -1 -1 -8 -30 0 1317 0 479")
+        (Scroll "2250 1985")
+        (Zoom "228")
         (Occurrence "/"))
       (Path "D:\GITHUB\BF51X\SCH\ADSP_BF518.DSN")
       (Schematic "bf51x")
@@ -164,9 +173,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 200 1517 200 679")
-        (Scroll "2237 0")
-        (Zoom "240")
+        (Placement "44 0 1 -1 -1 -8 -30 25 1342 25 504")
+        (Scroll "2250 1985")
+        (Zoom "228")
         (Occurrence "/"))
       (Path "D:\GITHUB\BF51X\SCH\ADSP_BF518.DSN")
       (Schematic "bf51x")
@@ -174,9 +183,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 225 1542 225 704")
-        (Scroll "-139 0")
-        (Zoom "60")
+        (Placement "44 0 1 -1 -1 -8 -30 50 1367 50 529")
+        (Scroll "2250 1985")
+        (Zoom "228")
         (Occurrence "/"))
       (Path "D:\GITHUB\BF51X\SCH\ADSP_BF518.DSN")
       (Schematic "bf51x")
@@ -184,9 +193,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 1317 0 479")
-        (Scroll "-188 0")
-        (Zoom "92")
+        (Placement "44 0 1 -1 -1 -8 -30 75 1392 75 554")
+        (Scroll "-149 38")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "D:\GITHUB\BF51X\SCH\ADSP_BF518.DSN")
       (Schematic "bf51x")
@@ -194,42 +203,11 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 25 1342 25 504")
-        (Scroll "-188 0")
-        (Zoom "92")
-        (Occurrence "/"))
-      (Path "D:\GITHUB\BF51X\SCH\ADSP_BF518.DSN")
-      (Schematic "bf51x")
-      (Page "07_ADC"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1367 50 529")
-        (Scroll "365 98")
-        (Zoom "114")
-        (Occurrence "/"))
-      (Path "D:\GITHUB\BF51X\SCH\ADSP_BF518.DSN")
-      (Schematic "bf51x")
-      (Page "08_KEY&LCD"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 75 1392 75 554")
+        (Placement "44 2 3 -1 -1 -8 -30 100 1417 100 579")
         (Scroll "-284 -3")
         (Zoom "57")
         (Occurrence "/"))
       (Path "D:\GITHUB\BF51X\SCH\ADSP_BF518.DSN")
       (Schematic "bf51x")
-      (Page "09_CONNECTOR"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 460 125 582")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "0 288")
-        (Zoom "174"))
-      (Path "D:\GITHUB\BF51X\CADENCE_SCH_LIB\PRJ_BLACKFIN_BF518.OLB")
-      (Package "SSM2603")))
+      (Page "07_KEY&LCD")))
   (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_16.5\tools\capture\library"))
